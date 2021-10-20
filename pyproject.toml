@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "paywx"
-version = "1.0.0.beta02"
+name = "Paywx"
+version = "1.0.2"
 description = "WeChat Payments and open platform SDK"
 authors = ["Obrisk <contact@obrisk.com>"]
 license = "MIT"

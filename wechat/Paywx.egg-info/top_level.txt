@@ -1,5 +1,0 @@
-client
-crypto
-pay
-session
-work

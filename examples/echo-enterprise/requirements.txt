@@ -1,4 +1,0 @@
-Flask
-wechatpy
-gunicorn
-cryptography

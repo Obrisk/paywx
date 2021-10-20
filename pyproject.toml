@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "paywx"
+version = "1.0.0.beta02"
+description = "WeChat Payments and open platform SDK"
+authors = ["Obrisk <contact@obrisk.com>"]
+license = "MIT"
+readme = 'README.md'
+keywords = ["wechat", "weixin", "wechat third-party SDK", "weixin SDK"]
+classifiers = [
+    "Development Status :: 2 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities"
+]
+
+repository = "https://github.com/obrisk/paywx.git"
+homepage = "https://github.com/obrisk/paywx"
+documentation = "https://obrisk.cn/projects/paywx"
+
+[tool.poetry.dependencies]
+python = ">=3.6,<4"
+requests = ">=2.4.3"
+xmltodict = ">=0.11.0"
+optionaldict = ">=0.1.0"
+python-dateutil = ">=2.5.2"
+cryptography = ">=2.8,<4.0"
+dataclasses = { version = "^0.7", python = "~3.6" }
+requests-pkcs12 = "^1.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.1"
+pytest-cov = "^2.8.1"
+httmock = "^1.3.0"
+coverage = "^5.0.4"
+redis = "^3.4.1"
+pymemcache = "^3.0.1"
+
+[tool.poetry.urls]
+issues = "https://github.com/obrisk/paywx/issues"
+
+[tool.black]
+line-length = 120
+target-version = ['py36', 'py37', 'py38']
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

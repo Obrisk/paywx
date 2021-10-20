@@ -1,7 +1,7 @@
-[![Documentation Status](https://obrisk.cn/projects/paywx/](https://obrisk.cn/projects/paywx/)
+[![Documentation Status](https://obrisk.cn/projects/paywx/)](https://obrisk.cn/projects/paywx/)
 [![PyPI](https://dist.paywx.svg)](https://pypi.org/project/paywx)
 [![Tested on Travic-ci](https://api.travis-ci.org/badges/badgerbadgerbadger.svg?branch=master&status=passed)](https://travis-ci.org)
-[![Reviewed by Deepsource](https://bookface-images.s3.amazonaws.com/logos/a27dd378173ef85d8cdc21405e7759e481740898.png?1587827550)](https://deepsource.io)
+[![Reviewed by Deepsource](https://static.deepsource.io/dashboard/images/logo.svg)](https://deepsource.io)
 
 WeChat third-party Python SDK
 

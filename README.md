@@ -28,7 +28,7 @@ Paywx supports Python versions 3.6, 3.7, 3.8, 3.9 and Pypy. The simplest way to 
 pip install paywx
 ```
 
-Installing as a global package：
+Updating：
 
     pip install -U paywx
 

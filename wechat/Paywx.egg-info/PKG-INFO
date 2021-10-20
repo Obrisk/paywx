@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: Paywx
+Version: 1.0.2
+Summary: WeChat Payments and open platform SDK
+Home-page: https://github.com/obrisk/paywx
+Author: Obrisk
+Author-email: contact@obrisk.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/obrisk/paywx/issues
+Project-URL: Source, https://github.com/obrisk/paywx
+Project-URL: Documentation, https://obrisk.cn/projects/paywx
+Project-URL: Support, https://obrisk.slack.com/
+Keywords: wechat,weixin,wechat third-party SDK,weixin SDK
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+[![PayWx](https://obrisk.oss-cn-hangzhou.aliyuncs.com/media/images/Paywx-logo.png)](https://obrisk.cn/projects/paywx/)
+
+
+[![PyPI](https://dist.paywx.svg)](https://pypi.org/project/paywx)
+[![Tested on Travic-ci](https://api.travis-ci.org/badges/badgerbadgerbadger.svg?branch=master&status=passed)](https://travis-ci.org)
+
+WeChat third-party Python SDK
+
+master: [Read the Documentation ](https://obrisk.cn/projects/paywx/)
+
+
+## Features
+
+
+1. Common public platforms passively respond and actively call APIs
+2. WeChat Pay API
+3. The third-party platform calls the API on behalf of the official account
+4. Mini Program Cloud Development API
+
+
+## Installation
+
+Paywx supports Python versions 3.6, 3.7, 3.8, 3.9 and Pypy. The simplest way to install is to use pip
+
+
+```bash
+pip install paywx
+```
+
+Installing as a global package：
+
+    pip install -U paywx
+
+
+## Quick Start guide
+
+This codebase comes with some examples [examples](examples/)
+
+
+## Support
+
+[GitHub issues](https://github.com/obrisk/paywx/issues)
+
+Slack Channel
+
+https://obrisk.slack.com/
+
+![Paywx Slack channel for Support](https://cdn-icons-png.flaticon.com/512/2111/2111615.png)
+
+
+## License
+
+This work is released under the MIT license. A copy of the license is provided in the [LICENSE](./LICENSE) file.
+
+
